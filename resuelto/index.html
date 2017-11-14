@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+
+  </head>
+  <body>
+    <div class="col-40">
+      <h1>Rompecabezas</h1>
+      <h2>Instrucciones</h2>
+      <ul>
+        <li>Mover las piezas presionando las teclas de fechas</li>
+        <li>Encontrar el orden correcto de las piezas</li>
+      </ul>
+      <div id="botenes">
+        <button onclick="iniciar()" id="mezclar">Mezclar</button>
+        <div id="arriba">
+        <br>
+        <button onclick="arriba()" class="boton">Arriba</button>
+        <br>
+        </div>
+        <div id="abajo">
+          <button onclick="izquierda()" class="boton">Izqueirda</button>
+          <button onclick="abajo()" class="boton">Abajo</button>
+          <button onclick="derecha()" class="boton">Derecha</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-60">
+      <img src="images/1.jpg" alt="1" id="imagen1" class="imagen"/>
+      <img src="images/2.jpg" alt="2" id="imagen2" class="imagen"/>
+      <img src="images/3.jpg" alt="3" id="imagen3" class="imagen"/>
+      <img src="images/4.jpg" alt="4" id="imagen4" class="imagen"/>
+      <img src="images/5.jpg" alt="5" id="imagen5" class="imagen"/>
+      <img src="images/6.jpg" alt="6" id="imagen6" class="imagen"/>
+      <img src="images/7.jpg" alt="7" id="imagen7" class="imagen"/>
+      <img src="images/8.jpg" alt="8" id="imagen8" class="imagen"/>
+      <img src="" id="imagen9" class="imagen"/>
+    </div>
+
+    <script src="js/juego.js"></script>
+
+  </body>
+</html>
